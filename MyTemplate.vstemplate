@@ -1,0 +1,33 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>InventorySystem</Name>
+    <Description>Manages an inventory system keeping track of name, cost, and quantity</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>InventorySystem</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="InventorySystem.vcxproj" File="InventorySystem.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">InventorySystem.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="InventoryManager.cpp">InventoryManager.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="InventorySystem.cpp">InventorySystem.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="IOutil.cpp">IOutil.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Menu.cpp">Menu.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.cpp">stdafx.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="InventoryManager.h">InventoryManager.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="IOutil.h">IOutil.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Menu.h">Menu.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.h">stdafx.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="targetver.h">targetver.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ClassDiagram.cd">ClassDiagram.cd</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ReadMe.txt">ReadMe.txt</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
